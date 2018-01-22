@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css属性效果</title>
+    <script>
+
+    </script>
+    <!--
+    外部样式进行引用外部文件
+    <link rel="stylesheet" type="text/css" href="css/style2.css" />
+    -->
+
+    <style>
+        /*内部样式*/
+        p{
+            background-color: chartreuse;
+        }
+        h1{
+            background-color: coral;
+        }
+        h3{
+            font-family: 宋体;
+            font-weight: bolder;
+            color: darkorchid;
+            margin: auto;
+        }
+        p{
+            font-size: 15px;
+            font-style: italic;
+            color: darkgoldenrod;
+            font-weight: bold;
+        }
+        .pp1{
+            /*对类进行设计*/
+            background-color: black;
+        }
+        p span{
+            /*对 p标签下的span标签进行设置*/
+            color: brown;
+        }
+        span,div{
+            /*叠加 两者用一样的样式*/
+            background-color: gold;
+        }
+        #div01{
+            /*id 选择器*/
+            background-color: darkorchid;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+<h3>
+    再别康桥
+</h3>
+<p>
+    轻轻的我走了，<br>
+    正如我轻轻的来；<br>
+    我轻轻的招手，<br>
+    作别西天的云彩。<br>
+
+    <span>
+        块块
+    </span>
+</p>
+
+<p style="background-color: aqua">
+<!--行内样式-->
+    <h1>aaa</h1>
+    这是一个测试11111
+</p>
+
+<p class="pp1">
+    这是一个测试22222
+</p>
+
+<div>
+    divdivdiv
+</div>
+
+<div id="div01">
+    <!--aaaa-->
+    div1234567890
+</div>
+
+</body>
+</html>
