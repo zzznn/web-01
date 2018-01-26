@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css属性效果</title>
+    <!--外部引用-->
+    <link rel="stylesheet" type="text/css" href="css/styledemo01.css" >
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/jsdemo01.js"></script>
+    <script>
+        function check() {
+//            检查用户名密码规范
+            var username = $("#username").val();
+            var password = $("#password").val();
+            if ( username == "kevin"){
+                alert("ok");
+            }
+            else {
+                alert("账号密码不符合规定！");
+            }
+
+        }
+
+//        var 用于变量的声明 同一个变量可以赋不同类型的值
+//function 声明函数 里面的var就是局部变量
+//逻辑运算符 数值运算 流程控制if else  for循环
+
+    </script>
+
+</head>
+<body>
+
+<div id="div1 ">
+    <form id="form1" method='post'>
+        <!--
+        焦点在 input 里面弹框 onfocus=""
+        焦点在 input 外面弹框 onblur=""
+        input 有改变弹框 onchange=""
+        -->
+        <!--<input type="text"  onchange="show()">-->
+        <!--<input type="text" onblur="show()">  -->
+        <!--<input type="text" onfocus="show()">-->
+        <a href="login_no1.html">下一页</a> <br>
+        <a href="javascript:location.reload();">点击刷新页面</a> <br><br>
+        <!--<a href="#" onclick="delete01()">aaa</a> <br><br>-->
+        <!--<input type="button" value="点击" onclick="show()"> <br><br>-->
+        <div>
+            username；<input type="text" name="username" id="username"/>
+        </div><br>
+        <div>
+            password；<input type="password" name="password" id="password" />
+        </div><br>
+        <div>
+            <input type="button" id="login" value="login" onclick="check()">
+        </div><br>
+
+        <input type="button" value="删除按钮" onclick="delete01()"> <br><br>
+
+        <select onchange="show()">
+            <option> A</option>
+            <option> B</option>
+            <option> C</option>
+            <option> D</option>
+        </select> <br><br>
+
+    </form><br><br>
+</div><br><br>
+
+</body>
+</html>

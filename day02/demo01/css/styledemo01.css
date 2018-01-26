@@ -1,0 +1,126 @@
+/* * * 外部样式 * * */
+body{
+    background: url(../images/bg1.jpg) no-repeat;
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    min-height:1050px;
+}
+
+#p1{
+    background-color: greenyellow;
+    text-align:center;
+}
+p{
+    background-color: aquamarine;
+    text-align:center;
+}
+
+
+
+h1{
+    color: brown;
+    text-align:center;
+    background-color: aquamarine;
+}
+h3{
+    font-family: 宋体;
+    text-align:center;
+    font-weight: bolder;
+    color: darkorchid;
+    margin: auto;
+}
+
+
+/**********************
+设置 a 标签的样式
+link     点击前
+hover    放鼠标效果
+visited  点击后的
+active   点击为放开间
+***********************/
+a{text-align:center;}
+a:link{ color: red; font-size: 44px }
+a:hover{ color: lawngreen; border: 5px dashed bisque}
+a:active{ color: aqua }
+a:visited{ color: gray; font-size:40px}
+
+
+#div-1{
+    margin:0 auto;
+    width: 500px;
+    border: 5px dashed blue;/* 设置边框线 */
+}
+
+#div-2{
+    width: 500px;
+    left: 100px;
+    border: 5px dashed blue;/* 设置边框线 */
+    float: left; /*设置浮动*/
+}
+
+/*div的绝对定位 相对于浏览器*/
+/*left 和 right top 和 bottom  左右 和 上下 两组中 每组只设置一个*/
+
+#div-3{
+    float: right;/*设置浮动*/
+    background-color: aliceblue;
+    margin:0 auto;
+    width: 500px;
+    sleft: -350px;
+    border: 5px dashed blue;/* 设置边框线 */ }
+
+#div-4{
+    margin:0 auto; /* 居中*/
+    width: 500px;
+    border: 5px dashed blue;/* 设置边框线 */
+}
+
+/*相对定位 位置相对父元素放置*/
+#f1{
+    border: 5px dashed blue;/* 设置边框线 */
+    width: 300px;
+    position: relative;
+    top: 10px;
+    left: -20px;
+    background-color: aquamarine /* 设置背景颜色 */
+}
+
+
+#div-5{
+    border: 5px dashed lightcoral;/* 设置边框线 */
+    width: 900px;
+    margin:0 auto; /* 居中*/
+    color: red;
+    clear: both/*消除其他浮动的影响*/
+}
+#img1{
+    border: 5px dashed lightcoral;/* 设置边框线 */
+    float: left;/*设置浮动*/
+    /*clear: both!*消除其他浮动的影响*!*/
+}
+
+#img2{
+    border: 5px dashed lightcoral;/* 设置边框线 */
+    float: left;/*设置浮动*/
+    /*clear: both!*消除其他浮动的影响*!*/
+}
+
+#img3{
+    border: 5px dashed black;/* 设置边框线 */
+    /*float: left;!*设置浮动*!*/
+    margin: 30px 50px;
+    /*clear: both!*消除其他浮动的影响*!*/
+}
+
+#img4{
+    border: 5px dashed red;/* 设置边框线 */
+    /*float: right;!*设置浮动*!*/
+    margin: 30px 50px;
+    /*clear: both!*消除其他浮动的影响*!*/
+}
+
